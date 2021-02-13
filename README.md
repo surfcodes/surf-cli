@@ -15,5 +15,19 @@ Or `brew tap bridgedxyz/surf` and then `brew install surf`.
 **Development**
 
 ```
-./surf.sh 2> /dev/null
+    ./surf.sh 2> /dev/null
+```
+
+**Production**
+
+1. Open current Directory
+
+```sh
+    surf .
+```
+
+2. Open current Direcrtory + Other Branch
+
+```sh
+    surf . -b <branch-name>
 ```
