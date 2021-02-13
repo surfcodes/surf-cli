@@ -1,10 +1,5 @@
 #!/bin/sh
 
-ROUTE_NAME="$(git config --get remote.origin.url | sed 's/.*\/\([^ ]*\/[^.]*\)/\1/')"
-MAIN_URL="https://github.surf/"
-ROUTE_SIZE=${#ROUTE_NAME}
-WARP_ROUTE_NAME=${ROUTE_NAME:0:ROUTE_SIZE-4}
-
 if [ "$1" == "" ] || [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
     echo ""
     echo "---------------------Github Surf 🏄‍♂️-------------------"
@@ -21,6 +16,11 @@ if [ "$1" == "" ] || [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
     echo ""
     exit 0;
 fi
+
+ROUTE_NAME="$(git config --get remote.origin.url | sed 's/.*\/\([^ ]*\/[^.]*\)/\1/')"
+MAIN_URL="https://github.surf/"
+ROUTE_SIZE=${#ROUTE_NAME}
+WARP_ROUTE_NAME=${ROUTE_NAME:0:ROUTE_SIZE-4}
 
 if [ $(find .git | wc -l) == 0 ]; then
     echo ""
