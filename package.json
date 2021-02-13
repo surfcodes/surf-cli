@@ -1,0 +1,23 @@
+{
+  "name": "surf",
+  "version": "1.0.0",
+  "description": "## How do I install these formulae?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bridgedxyz/surf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bridgedxyz/surf/issues"
+  },
+  "homepage": "https://github.com/bridgedxyz/surf#readme",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
