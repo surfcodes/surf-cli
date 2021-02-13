@@ -9,6 +9,19 @@
   </a>
 </p>
 
+## Installation
+
+**NPM**
+
+| Install:                           | Upgrade:                        |
+| ---------------------------------- | ------------------------------- |
+| `npm install -g @bridged.xyz/surf` | `npm upgrade @bridege.xyz/surf` |
+
+**YARN**
+| Install: | Upgrade: |
+| ----------------------------------- | -------------------------------- |
+| `yarn global add @bridged.xyz/surf` | `yarn upgrade @bridege.xyz/surf` |
+
 ## Demo
 
 ![cli-demo](./branding/cli-demo.gif)
@@ -52,16 +65,3 @@ Open Help.
 ## Contributing
 
 If you feel something strange or don't have some functionality, write an issue. You can find instructions on how to share feedback, create tools locally, and submit pull requests to your project.
-
-## Installation
-
-**NPM**
-
-| Install:                           | Upgrade:                        |
-| ---------------------------------- | ------------------------------- |
-| `npm install -g @bridged.xyz/surf` | `npm upgrade @bridege.xyz/surf` |
-
-**YARN**
-| Install: | Upgrade: |
-| ----------------------------------- | -------------------------------- |
-| `yarn global add @bridged.xyz/surf` | `yarn upgrade @bridege.xyz/surf` |
