@@ -37,7 +37,7 @@ fi
 if [ "$1" == "-b" ]; then
     python -m webbrowser $MAIN_URL$WARP_ROUTE_NAME+$2
     exit 2
-elif [ "$2" == "-b"]; then
+elif [ "$2" == "-b" ]; then
     python -m webbrowser $MAIN_URL$WARP_ROUTE_NAME+$3
     exit 2
 fi
