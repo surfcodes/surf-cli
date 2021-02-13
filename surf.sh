@@ -8,6 +8,7 @@ if [ "$1" == "" ] || [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
     echo "---------------------Github Surf 🏄‍♂️-------------------"
     echo ""
     echo "Development By @Bridged"
+    echo "📮 Report To https://github.com/bridgedxyz/surf-cli/issues"
     echo ""
     echo "---------------------Command List---------------------"
     echo ""
