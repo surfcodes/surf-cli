@@ -1,10 +1,10 @@
 {
     "name": "@bridged.xyz/surf",
-    "version": "0.0.15",
+    "version": "0.0.17",
     "description": "How to use github Surf awesomely",
     "main": "index.js",
-    "scripts": {
-        "surf": "node ./index.js"
+    "bin": {
+        "surf": "./surf.sh"
     },
     "repository": {
         "type": "git",
