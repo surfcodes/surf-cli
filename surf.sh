@@ -21,6 +21,7 @@ if [ "$1" == "" ] || [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
 fi
 
 if [ $(find .git | wc -l) == 0 ]; then
+    echo ""
     echo "There is no github setting."
     echo "Please proceed with github initial setup."
     exit 9;
