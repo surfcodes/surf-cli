@@ -1,6 +1,6 @@
 {
     "name": "@bridged.xyz/surf",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "How to use github Surf awesomely",
     "main": "index.js",
     "bin": {
