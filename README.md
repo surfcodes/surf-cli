@@ -1,4 +1,8 @@
-# Bridgedxyz Surf
+# 🏄‍♂️ Surf
+<p align="center">
+    <image src="./branding/surf-cli-cover.png"/>
+</p>
+
 
 ## How do I install these formulae?
 
